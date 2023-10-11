@@ -1,0 +1,107 @@
+#creating class and object
+
+class Hello:
+    name = ""
+    age = 0
+    
+a = Hello()
+a. name = " Jareena"
+a. age = 34
+
+print("name =", a. name)
+print ("age =", a.age)
+
+Output:
+name =  Jareena
+age = 34
+----------------------------------------------------------------
+#creating 2 objects
+class Hello:
+    name = ""
+    age = 0
+    
+a = Hello()
+a1 = Hello()
+
+a. name = " Jareena"
+a. age = 34
+
+a1. name = " Batul"
+a1. age = 35
+
+print("name =", a. name)
+print ("age =", a.age)
+
+print("name =", a1. name)
+print ("age =", a1.age)
+
+
+Output:
+
+name =  Jareena
+age = 34
+name =  Batul
+age = 35
+> 
+----------------------------------------------------------------
+#Using method
+class Hello:
+    name = ""
+    age = 0
+    
+    def show(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+        
+a = Hello()
+
+a. name = " Jareena"
+a. age = 34
+a.show()
+
+Output:
+
+Name:  Jareena
+Age: 34
+> 
+----------------------------------------------------------------
+# Calculate area of rectangle 
+class RectArea:
+    length = 0
+    breadth= 0
+    
+    def area(self):
+        print("Area of rectangle:", self.length * self.breadth)
+        
+a = RectArea()
+
+a.length =5
+a.breadth= 4
+a.area()A
+
+Output:
+
+Area of rectangle: 20
+> --------------------------------------------------------------
+# Calculate area of rectangle using function
+class RectArea:
+    
+    length = int(input("Enter values for length :"))
+    breadth= int(input("\nEnter values for breadth:"))
+    
+    def area(self):
+       
+        print("Area of rectangle:", self.length * self.breadth)
+        
+a = RectArea()
+
+a.area()
+
+Output:
+
+Enter values for length :4
+Enter values for breadth:6
+Area of rectangle: 24
+----------------------------------------------------------------
+
+> 

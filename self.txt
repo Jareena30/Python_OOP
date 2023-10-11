@@ -1,0 +1,48 @@
+
+# constructor for class
+class Demo:
+    def __init__(self, a, b) :
+        self.a = a
+        self.b = b
+
+d = Demo(25, 29)
+print("a=", d.a)
+print("b=", d.b)
+
+
+Output
+a= 25
+b= 29
+---------------------------------------------------------
+# use of self
+
+class Demo:
+    def __init__(self, a) :
+        self.a = a
+    def show(self):
+     print("a=", self.a)
+
+d = Demo(25)
+d. show()
+
+
+output :
+
+a = 25
+------------------------------------------------------------------------
+# calculate area of rectangle using constructor
+class RectArea:
+    def __init__(self, l, b) :
+        self.l = l
+        self.b = b
+    def area(self):
+        self. ar = self.l * self.b
+        print("Area of Rectangle=", self.ar)
+
+d = RectArea(5, 3)
+d.area()
+
+
+output:
+Area of Rectangle= 15
+------------------------------------------------------------------------
